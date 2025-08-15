@@ -139,6 +139,14 @@ npm install #if not already run
 npm start
 ~~~ 
 to start the frontend. The fronted runs on https://localhost:3000.
+### UI Features
+- **Uploading text files**: Users can upload PDF, TXT, or XML files. The text is extracted and sent to the backend for analysis using the selected model. The text with the marked entities is then displayed.
+- **Model switching**: Users can choose between different NER models that have been specifically trained for various medical datasets (e.g., 2010, 2012, 2014, 2018). Selecting a new model triggers a re-analysis of the text, updating the results accordingly.
+- **Filtering entities**: Users can filter the visualized entities by labels to specifically highlight certain entity types and enable a more focused analysis. With the extension of the models to include RE, the following additional features were added in this work:
+- **Displaying relations**: By clicking on a marked entity, users can open a sidebar showing all relations originating from the clicked entity.
+- **Threshold filter**: Users can filter the relations by threshold probability to specifically highlight certain probability values. The default probability value is 0.05.
+  
+![UI](ui/ui.png)
 
 ## Project Structure 
 ```bash
