@@ -1,5 +1,5 @@
 # Named Entity Recognition and Relation Extraction for Medical Records
-This is just the description of my Bachelor Thesis, since my project is used for further research at TUM, therefore the code is private for now.
+This repository includes just the README of my Bachelor Thesis, since my project is used for further research at TUM, therefore the code is private for now.
 
 ## Description
 This project originated as part of the KAP (Clinical Application Project) and has been significantly extended to form the core of a Bachelor's thesis.
