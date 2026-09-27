@@ -1,0 +1,22 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+.ag-cell-wrap-text {
+    white-space: normal;
+    word-break: break-word;
+
+    line-height: 1.3em;
+  
+    display: flex;
+    align-items: center; 
+    padding-top: 2px; 
+    padding-bottom: 2px;
+}
+  
+.ag-cell-wrap-text .ag-cell-value {
+    line-height: inherit;
+}
+
+

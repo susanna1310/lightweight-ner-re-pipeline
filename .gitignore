@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
+
+# OS
+.DS_Store
+
+# Env / secrets
+.env
+.env.*
+
+# Trained models and data (not included - see README)
+ner_models/
+re_models/
+data_files/
+
+# Generated during training/evaluation
+files/
+optuna/
+*.spacy
+matrix.png
+class_report.png
+class_report_avg.png
+precision-confusion-matrix.png
+recall-confusion-matrix.png
