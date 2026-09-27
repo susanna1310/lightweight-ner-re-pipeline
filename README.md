@@ -145,6 +145,11 @@ to start the frontend. The frontend runs on http://localhost:3000.
 ├── configs                 # Configs files for NER and RE
 │   ├── ner_config.cfg
 │   └── re_config.cfg
+├── data_split                  # Train/dev/test filename splits uced per i2b2/n2c2 year (record IDs only, not raw clinical text)
+│   ├── 2010
+│   ├── 2012
+│   ├── 2014
+│   └── 2018
 ├── frontend/                   # Implementation of the frontend
 ├── ner_files                   # Scripts for NER data preparation and HPO
 │   ├── generate_training_data.py   # Old script to create JSON files
